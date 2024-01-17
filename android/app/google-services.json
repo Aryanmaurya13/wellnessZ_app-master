@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806952824955",
+    "project_id": "wellnessz-app",
+    "storage_bucket": "wellnessz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806952824955:android:3494f440d115449a66f2de",
+        "android_client_info": {
+          "package_name": "com.wellnessz.wellnessz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWDh4tYJaOKor1y4MFZs6kblA6p7awjss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
