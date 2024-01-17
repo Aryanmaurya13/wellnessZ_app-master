@@ -43,24 +43,7 @@ class _CoachInviteFriendsViewState extends State<CoachInviteFriendsView> {
               InfoDatatype1('Workout is more fun when done together \nwith Friends. So why wait?',),
               InfoDatatype1('Invite your friends on WellnessZ and \nStay Healthytogether' ),
 
-              Container(
-                height: _size.height(83),
-                width: _size.width(342),
-                decoration: BoxDecoration(
-                  color: themController.isLightTheme.value
-                      ? AppColor.lightGrey
-                      : AppColor.pureBlackColor,
-                  borderRadius: BorderRadius.circular(10),
-                  shape: BoxShape.rectangle,
-                ),
-                child: Column(
-                  children: [
-                    accountSettingType( 'Dark'),
-                    accountSettingType( 'Light'),
 
-                  ],
-                ),
-              ),
 
 
 

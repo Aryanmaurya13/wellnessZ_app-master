@@ -22,7 +22,7 @@ class AppRoutes{
 
     GetPage(
       name: RouteName.splashView,
-      page: ()=> const CoachInviteFriendsView(),
+      page: ()=> const SplashView(),
       transition: Transition.noTransition,
     ),
 
@@ -68,6 +68,31 @@ class AppRoutes{
     GetPage(
       name: RouteName.clientHomeView,
       page: ()=>  const ClientHomeView(),
+      transition: Transition.noTransition,
+    ),
+    GetPage(
+      name: RouteName.coachAccountView,
+      page: ()=> const CoachAccountView(),
+      transition: Transition.noTransition,
+    ),
+    GetPage(
+      name: RouteName.coachProfileView,
+      page: ()=> const CoachProfileView(),
+      transition: Transition.noTransition,
+    ),
+    GetPage(
+      name: RouteName.coachSettingView,
+      page: ()=> const CoachSettingView(),
+      transition: Transition.noTransition,
+    ),
+    GetPage(
+      name: RouteName.coachInvitefriendsView,
+      page: ()=> const CoachInviteFriendsView(),
+      transition: Transition.noTransition,
+    ),
+    GetPage(
+      name: RouteName.coachThemeView,
+      page: ()=> const CoachThemeView(),
       transition: Transition.noTransition,
     ),
 

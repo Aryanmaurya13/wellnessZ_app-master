@@ -12,5 +12,10 @@ class RouteName{
   static const String clientProfileView = '/client_profile_view';
   static const String clientAccountView = '/client_account_view';
   static const String clientHomeView = "/client_home_view";
+  static const String coachAccountView = '/coach_account_view';
+  static const String coachProfileView = '/coach_profile_view';
+  static const String coachSettingView = '/coach_setting_view';
+  static const String coachInvitefriendsView = '/coach_invitefriends_view';
+  static const String coachThemeView = '/coach_theme_view';
 
 }
